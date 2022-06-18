@@ -1,5 +1,6 @@
-from IPython.lib.display import FileLink
+import streamlit as st
 import folium
+from streamlit_folium as st_folium
 from folium.plugins import MiniMap
 
 popuptext='<b>Óvalo de Miraflores</b>'
@@ -19,3 +20,5 @@ minimap=MiniMap(tile_layer='stamenterrain')
 minimap=MiniMap(tile_layer='stamenterrain')
 ovalo_miraflores.add_child(minimap)
 ovalo_miraflores
+st_data= st_folium(ovalo_miraflore,width=725)
+
