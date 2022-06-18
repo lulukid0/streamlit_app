@@ -20,5 +20,5 @@ minimap=MiniMap(tile_layer='stamenterrain')
 minimap=MiniMap(tile_layer='stamenterrain')
 ovalo_miraflores.add_child(minimap)
 ovalo_miraflores
-st_data= st_folium(ovalo_miraflore,width=725)
+st_data= st_folium(ovalo_miraflores,width=725)
 
