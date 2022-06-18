@@ -1,7 +1,5 @@
 import streamlit as st
-
 from streamlit_folium import st_folium
-from IPython.lib.display import FileLink
 import folium
 from folium.plugins import MiniMap
 
